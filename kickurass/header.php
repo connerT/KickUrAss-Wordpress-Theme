@@ -4,6 +4,9 @@
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
+ * @package WordPress
+ * @subpackage Twenty_Ten
+ * @since Twenty Ten 1.0
  */
 ?>
 
@@ -34,7 +37,6 @@
 		?></title>
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
 		<?php
 			/* We add some JavaScript to pages with the comment form
 			 * to support sites with threaded comments (when in use).
@@ -49,19 +51,9 @@
 			 */
 			wp_head();
 		?>
-		
-		<script type="text/javascript">
-		function SelectAll(id)
-		{
-		document.getElementById(id).focus();
-		document.getElementById(id).select();
-		}		
-		
-		var string = document.getElementById("assKicking").innerHTML;
-	  	document.write("This is string: " + string);
-		</script>
-		
 	</head>	
 	<body <?php body_class(); ?>>
-
+		<header>
+			<h1>or I will kick your ass!...</h1>
+		</header>
 		<div id="main">
