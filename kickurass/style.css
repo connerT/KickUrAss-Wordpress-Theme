@@ -1,0 +1,157 @@
+/*
+Theme Name: kickurass
+Theme URI: 
+Author: Conner Tolley
+Author URI: 
+Description: 
+Version: 1.0
+License: 
+License URI: license.txt
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: 'Neuton',georgia,serif;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+}
+
+body {
+	background: #006738; 
+	background-image: linear-gradient(center top , #5E99FF, #2D58C4);
+	background-image: -moz-linear-gradient(center top , #5E99FF, #2D58C4);
+	background-image: -webkit-linear-gradient( top, #5E99FF, #2D58C4 );
+	background-image: -ms-linear-gradient(center top , #5E99FF, #2D58C4);
+	background-image: -o-linear-gradient(center top , #5E99FF, #2D58C4);
+	background-repeat: repeat-y;
+	line-height: 48px;
+	color: #fff;
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#main {
+	width: 600px;
+	margin: 25px auto;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+#container {
+	width: 600px;
+/*	border: 1px solid #333;  */
+	float: left;
+}
+
+#phrases {
+/*	float: right; */
+	width: 586px;
+	background: #DDDDDD;
+	background-image: -moz-linear-gradient(center top , #FFFFFF 0pt, #DDDDDD 100%) repeat scroll 0 0 transparent;
+	background-image: -webkit-linear-gradient(top,white 0,#DDD 100%);
+	background-image: -ms-linear-gradient(top,white 0,#DDD 100%);
+	
+	padding:7px;
+	border-bottom: 5px solid #000;
+}
+
+#phrases h2, #kickUrAss h2 {
+	font-size: 42px;
+	text-align: center;
+	padding: 7px;
+}
+
+#phrases h2 {
+	color: #333;
+}
+
+#kickUrAss h2 {
+	color: #fff;
+	padding: 30px 0;
+}
+
+#imageHolder {
+/*	float: left; */
+	margin:0 auto;
+}
+
+#kickUrAss {
+	width: 586px;
+	background: #000;
+	background-image: -moz-linear-gradient(center top , #000 0pt, #252525 100%) repeat scroll 0 0 transparent;
+	background-image: -webkit-linear-gradient(top,black 0,#252525 100%);
+	background-image: -ms-linear-gradient(top,black 0,#252525 100%);
+	margin: -19px 0 20px;
+	padding:7px;
+	color:#fff;
+/*	border-top: 5px solid #ccc;	*/
+}
+
+p#moreWisdomButton {
+	color: #2A62C1 !important
+	text-align:center;
+	text-decoration:none;
+	font-size: 22px;
+	background: -moz-linear-gradient(center top , #C0D4FD, #98B9FC) repeat scroll 0 0 #C0D4FD;
+	padding:.5em .66em;
+	top: 40%;
+	left: 0;
+	position: fixed;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+	border: 1px solid rgba(20, 20, 20, 0.15);
+	border-radius: 4px 4px 4px 4px;
+	border-top-left-radius: 0;
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+	border-bottom-left-radius:0;
+	box-shadow: 1px 1px 0 0 rgba(255, 255, 255, 0.4) inset;
+	
+}
+
+#imageSource {
+	width: 590px;
+	font-size: 13px;
+	border: 1px solid #ccc;
+	padding:4px;
+	color: #000;
+	background: transparent;
+	margin:30px 0 70px;
+}
+
+footer {
+	background: #252525;
+	height:74px;
+	width:100%; 
+	bottom: 0px;
+	left: 0;
+	position: fixed; 
+	padding:0 7px 0;
+	text-align: right;
+}
+
+footer h1 {
+/*	color: #fff; */
+	font-size: 30px;
+	float: left;
+	width: 300px;
+	line-height: 74px;
+	margin: 0 0 0 15px;
+	text-shadow: #000 -1px -1px 0px;
+}
