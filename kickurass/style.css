@@ -63,11 +63,13 @@ header h1 {
 	text-shadow: #000 -1px -1px 0px;
 }
 
-#main {
+.main {
 	width: 900px;
 	margin: 25px auto;
 	overflow: auto;
 	overflow-x: hidden;
+	overflow-y: hidden;
+	float: left;
 }
 
 #container {
@@ -83,16 +85,32 @@ header h1 {
 	background-image: -moz-linear-gradient(center top , #FFFFFF 0pt, #DDDDDD 100%) repeat scroll 0 0 transparent;
 	background-image: -webkit-linear-gradient(top,white 0,#DDD 100%);
 	background-image: -ms-linear-gradient(top,white 0,#DDD 100%);
-	
 	padding:7px;
 	border-bottom: 5px solid #000;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
 }
 
-#phrases h2 {
+#phrases h2, #kickUrAss h2 {
 	font-size: 42px;
 	color: #333;
 	text-align: center;
 	padding: 7px;
+}
+
+#kickUrAss {
+	width: 586px;
+	background: #DDDDDD;
+	background-image: -moz-linear-gradient(center top , #000 0pt, #252525 100%) repeat scroll 0 0 transparent;
+	background-image: -webkit-linear-gradient(top,black 0,#252525 100%);
+	background-image: -ms-linear-gradient(top,black 0,#252525 100%);
+	margin: -19px 0 20px;
+	padding:7px;
+	color:#fff;
+	border-top: 5px solid #000;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	
 }
 
 #imageHolder {
@@ -102,12 +120,12 @@ header h1 {
 
 #left_arrow {
 	float: left;
-	margin: 25% 0 0 0;
+	margin: 50% 0 0 0;
 }
 
 #right_arrow {
 	float: left;
-	margin: 25% 0 0 0;
+	margin: 50% 0 0 0;
 }
 
 footer {
@@ -122,4 +140,39 @@ footer {
 
 footer p {
 	margin: 0 30px 0 0;
+}
+
+/* SlideShow */
+
+.slideshow {
+    height: 600px;
+    margin: auto;
+    width: 600px;
+}
+
+.slideshow img {
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+}
+
+.slideshow h2 {
+	width:600px;
+}
+
+.navBox {
+	width: 900px;
+	margin: 10px auto;
+	overflow: auto;
+}
+
+
+.navNext {
+	float:left;
+	margin-top: 25%;
+}
+
+.navPrev {
+	float: left;
+	margin-top: 25%;
 }
