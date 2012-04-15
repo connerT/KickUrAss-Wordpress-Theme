@@ -37,6 +37,11 @@
 		?></title>
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js" type="text/javascript"></script>
+		<script src="<?php echo bloginfo('template_directory'); ?>/js/jquery-cycle-all.js" type="text/javascript"></script>
+		<script src="<?php echo bloginfo('template_directory'); ?>/js/slideshow.js" type="text/javascript"></script>
+
 		<?php
 			/* We add some JavaScript to pages with the comment form
 			 * to support sites with threaded comments (when in use).
@@ -54,6 +59,6 @@
 	</head>	
 	<body <?php body_class(); ?>>
 		<header>
-			<h1>or I will kick your ass!...</h1>
+			<h1><?php bloginfo('name'); ?></h1>
 		</header>
-		<div id="main">
+
