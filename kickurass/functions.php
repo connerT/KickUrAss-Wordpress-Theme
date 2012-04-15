@@ -19,6 +19,5 @@ return (array($images, $captions));
 
 $images = get_all_images();
 $imageCount = count($images[0]);
-$randImage = (rand() % $imageCount);
 
 ?>
